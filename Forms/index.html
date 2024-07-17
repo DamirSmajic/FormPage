@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Survey Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head> 
+<body> 
+  <h1 id="title">Survey Form</h1>
+  <p id="description">We'd like you to participate in our survey.</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Enter your name: <input type="text" id="name" required placeholder="Name" /></label>
+    <label for="email" id="email-label" >Enter your email: <input type="email" id="email" required placeholder="email@emali.com" /> </label>
+<label for="number" id="number-label">Enter a number: <input type="number" id="number" min="0" max="100" placeholder="(0-100)"/></label>
+<p>Select from the drop-down: </p>
+<select id="dropdown">
+  <option>Option 0</option>
+  <option>Option 1</option>
+  <option>Option 2</option>
+  </select>
+  <p>Select a radio-button: </p>
+ <label for="radiobtt"><input type="radio" name="radiobtt" class="radio" value="radioOne"/> Radio One</label>
+  <label for="radiobtt"><input type="radio" name="radiobtt" class="radio" value="radioTwo"/> Radio two</label>
+  <p>Please select one of the checkboxes: </p>
+  <label for="Checkbox-one"><input type="checkbox" value="Checkbox-one"/> Checkbox one</label>
+  <label for="Checkbox-two"><input type="checkbox" value="Checkbox-two"/> Checkbox two</label>
+  <label for="Checkbox-three"><input type="checkbox" value="Checkbox-three"/> Checkbox three</label>
+  <label for="Checkbox-four"><input type="checkbox" value="Checkbox-four"/> Checkbox four</label>
+<textarea name="comment" id="comment" rows="3" cols="30">Enter comments here</textarea>
+<button type="submit" id="submit">Submit</buton>
+  </form> 
+</body>
+</html> 

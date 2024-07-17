@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #232D3F;
+    color: white;
+  }
+  
+  form {
+    border: solid 2px #005B41;
+  }
+  
+  label, button, textarea {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .radio {
+    display: inline-block;
+    margin: 0px auto;
+  }
+  
+  #dropdown {
+    margin-top: 10px;
+    display: i
+  
+  }  
